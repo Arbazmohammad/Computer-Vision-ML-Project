@@ -9,6 +9,7 @@ Here Hand landmarks detection and tracking is used in order to achieve the objec
 
 
 Algorithm
+
 1.Start reading the frames and convert the captured frames to HSV colour space.(Easy for colour detection)
 
 2.Prepare the canvas frame and put the respective ink buttons on it.
