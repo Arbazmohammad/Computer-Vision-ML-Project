@@ -8,7 +8,7 @@ Ever wanted to draw your imagination by just waiving your finger in air. In this
 Here Hand landmarks detection and tracking is used in order to achieve the objective.
 
 
-Algorithm
+## Algorithm
 
 1.Start reading the frames and convert the captured frames to HSV colour space.(Easy for colour detection)
 
@@ -16,7 +16,7 @@ Algorithm
 
 3.Adjust the values of teh mediapipe intilization to detect one hand only.
 
-4.Detect teh landmarks by passing the RGB frame to the mediapipe hand detector.
+4.Detect the landmarks by passing the RGB frame to the mediapipe hand detector.
 
 5.Detect the landmarks, find the forefinger coordinates and keep storing them in the array for successive frames .(Arrays for drawing points on canvas).
 
